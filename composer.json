@@ -1,0 +1,27 @@
+{
+    "name": "coder-manjeet/laravel-form-builder",
+    "description": "Provides basic laravel form builder scaffholding for model, contorller and migrations.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CoderManjeet\\LaravelFormBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "CoderManjeet",
+            "email": "codermanjeet@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CoderManjeet\\LaravelFormBuilder\\FormBuilderServiceProvider"
+            ]
+        }
+    }
+}
